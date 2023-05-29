@@ -1,0 +1,53 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+    .about-title{
+        margin-bottom: 64px;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 32px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .img{
+        color: #fb8b24;
+    }
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .mobile_text{
+            text-align: center;
+        }
+    }
+    .laptop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .laptop_text{
+            text-align: center;
+        }
+    }
+    .other{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 64px;
+        .other_text{
+            text-align: center;
+            margin-left: 50px;
+        }
+    }
+    .service-center{
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+}

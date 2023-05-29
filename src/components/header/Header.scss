@@ -1,0 +1,35 @@
+header{
+    background-color: #fff;
+}
+.panel-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+    .list-item{
+        display: flex;
+        align-items: center;
+        font-family: 'Ubuntu';
+        .auth_links{
+            text-decoration: none;
+            color: black;
+        }
+        .work-time{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            padding: 5px 5px;
+            background-color: #fb8b24;
+            color: black;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .panel-list{
+        display: none;
+    }
+}

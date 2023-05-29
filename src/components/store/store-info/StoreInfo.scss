@@ -1,0 +1,21 @@
+.info{
+    margin: 64px 0;
+    display: flex;
+    gap: 0 50px;
+}
+.title{
+    color: #fb8b24;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.paragraph, .list{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.800);
+}
+
+.list{
+    margin-left: 50px;
+    list-style: disc;
+}
